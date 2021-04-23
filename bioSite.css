@@ -11,7 +11,8 @@
  body {
     min-width: 960px;
     font-family: 'Alegreya Sans', 'Times New Roman', Times, sans-serif;
-    background-color: #85CDFB;
+    background: url("images/waves3.jfif") no-repeat fixed;
+    background-size: 100%;
   }
   .container_16 {
     margin-left: auto;
@@ -301,13 +302,13 @@
     font-weight: 700;
     font-family: 'Caveat', 'Times New Roman', Times, serif;
     font-size: 4em;
-    color: #7F0DD4;
+    color: #A51AEB;
+    opacity: 75%;
     text-align: center;
   }
  #nav
   {
-
-    background-color: #7F0FF7;
+    background-color: rgba(127, 15, 247, .5);
     width: 340px;
     text-align: center;
     margin-bottom: 30px;
@@ -351,28 +352,50 @@
     bottom: 0;
     position: static;
     color: white;
-    background-color: #7F0FF7;
-    width: 97.9%;
     padding-right: 10px;
     margin-top: 20px;
   }
-
+  #hobby p
+  {
+    background-color: rgba(127, 15, 247, .5);
+    border-radius: 10px;
+    border: 2px solid #7F0FF7;
+    padding: 5px;
+  }
   p
   {
     text-align: center;
+    color: white;
   }
   #about p
   {
     text-align: left;
   }
+  #article
+  {
+    background-color: rgba(127, 15, 247, .65);
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #7F0FF7;
+  }
+  #title
+  {
+    font-weight: 500;
+    color: #A51AEB;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
   figcaption
   {
       font-weight: 400;
       margin-bottom: 50px;
+      color: white;
   }
   #links
   {
-    background-color: #7F0FF7;
+    background-color: rgba(127, 15, 247, .5);
     text-align: center;
     color: white;
   }
