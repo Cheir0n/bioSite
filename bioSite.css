@@ -12,7 +12,8 @@
     min-width: 960px;
     font-family: 'Alegreya Sans', 'Times New Roman', Times, sans-serif;
     background: url("images/waves3.jfif") no-repeat fixed;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
   }
   .container_16 {
     margin-left: auto;
